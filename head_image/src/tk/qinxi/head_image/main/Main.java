@@ -20,8 +20,8 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		final List<String> list = new ArrayList<String>();//过滤文件后缀
 		list.add("jpg");
-		list.add("png");
-		list.add("bmp");
+		//list.add("png");
+		//list.add("bmp");
 		JFileChooser fileChooser = new JFileChooser();
 		fileChooser.setFileFilter(new FileFilter() {//添加文件过滤器
 
